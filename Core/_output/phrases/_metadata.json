@@ -1,0 +1,38 @@
+{
+    "ad_pos.exilium_cheat_status.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "7e0a113dfb0bb5462a0495a930f5aa5d"
+    },
+    "ad_pos_desc.exilium_cheat_status.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "098f6bcd4621d373cade4e832627b4f6"
+    },
+    "nav.ex_client_panel.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "400051ac2652951fa94a5c0ca8a245c7"
+    },
+    "nav.ex_client_panel_reset_hwid.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "a4260adab789c8a0a7fc7cfcd41f145e"
+    },
+    "widget_def.exilium_cheat_status.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "0783dedc0f41bb3ef478e7d41f343bc3"
+    },
+    "widget_def_desc.exilium_cheat_status.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "bf82ee191cb1c55ebb2a9991b160ae06"
+    }
+}

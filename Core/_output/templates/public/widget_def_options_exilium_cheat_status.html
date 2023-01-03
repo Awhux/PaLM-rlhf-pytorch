@@ -1,0 +1,41 @@
+<div class="block">
+    <div class="block-container">
+        <h3 class="block-minorHeader">Cheat Status</h3>
+
+        <xf:if is="!{$availableCheats}">
+            <div class="block-row block-row--separated">
+                <div class="block-row-main">
+                    <div class="block-row-main-content">
+                        <div class="block-text">
+                            Currently no cheats are available.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xf:if>
+
+        <xf:if is="{$availableCheats}">
+            <xf:foreach loop="$availableCheats" value="$cheat">
+                <div class="block-row block-row--separated">
+                    <div class="block-row-main">
+                        <div class="block-row-main-content">
+                            <div class="block-textHeader">
+                                <h3>{$cheat.title}</h3>
+                            </div>
+                            <div class="block-minorText">
+                                <span class="u-muted">{$cheat.description}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-row-opposite">
+                        <div class="block-row-main-content">
+                            <div class="block-text {xen:if '$cheat.status', 'textColor--green', 'textColor--red'}">
+                                {xen:if '$cheat.status', 'Active', 'Inactive'}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xf:foreach>
+        </xf:if>
+    </div>
+</div>

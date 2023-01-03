@@ -1,0 +1,11 @@
+{
+    "route_type": "public",
+    "route_prefix": "client-panel",
+    "sub_name": "",
+    "format": "",
+    "build_class": "",
+    "build_method": "",
+    "controller": "Exilium\\Core:ClientPanelController",
+    "context": "",
+    "action_prefix": ""
+}

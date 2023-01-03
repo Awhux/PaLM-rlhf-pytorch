@@ -1,0 +1,11 @@
+{
+    "parent_navigation_id": "",
+    "display_order": 600,
+    "navigation_type_id": "basic",
+    "type_config": {
+        "link": "{{ link('client-panel') }}",
+        "display_condition": "$xf.visitor.canViewClientPanel()",
+        "extra_attributes": []
+    },
+    "enabled": true
+}

@@ -1,0 +1,1 @@
+Widget to show users the cheat status

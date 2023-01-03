@@ -1,0 +1,17 @@
+{
+    "admin/widget_def_options_exilium_cheat_status.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "698dc19d489c4e4db73e28a713eab07b"
+    },
+    "public/ex_client_panel.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "698dc19d489c4e4db73e28a713eab07b"
+    },
+    "public/widget_def_options_exilium_cheat_status.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "1703a0fd0b40c5ec9dbf642624e5f623"
+    }
+}
